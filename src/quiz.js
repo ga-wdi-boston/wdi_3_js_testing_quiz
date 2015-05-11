@@ -5,7 +5,9 @@
 //
 // assertion
 //
+// An assertion is also known as an expectation. It is a condition that we are saying should be true. The test runner will check the expected value against the result and alert us of any failed tests.
 // black-box testing
+// Black box testing means that we don't particularly care or know about the internals of the functions. We just put values in and expect correct values out.
 
 // Question 2.
 //
@@ -18,11 +20,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
