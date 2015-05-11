@@ -4,7 +4,10 @@
 // (Write them in comments so that the rest of the code will still run)
 //
 // assertion
-//
+
+// Assertions, or expectations, are code results that we should expect from a certain input to the program
+// in Jasmine they are written in this rough format = it("should do x", function(){...(test case).shouldBe(expected result...) })
+
 // black-box testing
 
 // Question 2.
@@ -18,11 +21,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
