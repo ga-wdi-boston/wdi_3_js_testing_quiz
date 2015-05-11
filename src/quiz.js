@@ -25,10 +25,11 @@ function countOdds (numbers) {
     }
 }
 
-// Write two black-box tests for this code.
+// Write two black-box tests for this code. (Remember, tests
+// go in the .spec.js file.)
 
 // Question 4. Consider the decision points and code paths
 // in countOdds. If you have covered them all with your
-// answer to question 3, write a comment indicating this.
-// Otherwise, write a third test that improves the code test
-// coverage.
+// answer to question 3, write a comment in the .spec.js
+// file indicating this. Otherwise, write a third test that
+// improves the code test coverage.
