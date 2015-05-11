@@ -3,9 +3,10 @@
 // Question 1.  In your own words, define the following:
 // (Write them in comments so that the rest of the code will still run)
 //
-// assertion
+// assertion:  a statement or expression that we believe to be true, used as input in test code.
 //
-// black-box testing
+// black-box testing:  a method of testing where the test code is written without specific knowledge or
+//                     understanding of the function that is being tested.
 
 // Question 2.
 //
@@ -18,11 +19,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
@@ -33,3 +35,4 @@ function countOdds (numbers) {
 // answer to question 3, write a comment in the .spec.js
 // file indicating this. Otherwise, write a third test that
 // improves the code test coverage.
+// return cou
