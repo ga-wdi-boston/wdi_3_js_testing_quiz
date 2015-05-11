@@ -4,8 +4,12 @@
 // (Write them in comments so that the rest of the code will still run)
 //
 // assertion
+  //An assertion says that something must be true. It is the expectation for the code.
+
 //
 // black-box testing
+
+  //Black-box testing is when we do not consider how the code works. We were only interested in the fact that our input matched the expected output.
 
 // Question 2.
 //
@@ -18,11 +22,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
