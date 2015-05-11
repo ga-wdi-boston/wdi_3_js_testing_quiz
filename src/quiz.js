@@ -3,9 +3,9 @@
 // Question 1.  In your own words, define the following:
 // (Write them in comments so that the rest of the code will still run)
 //
-// assertion
+// assertion - a statement of what should be true at that point in the code
 //
-// black-box testing
+// black-box testing - testing without looking into the function
 
 // Question 2.
 //
