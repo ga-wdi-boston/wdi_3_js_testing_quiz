@@ -4,9 +4,10 @@
 // (Write them in comments so that the rest of the code will still run)
 //
 // assertion
+//assertion is something that we expect to be true
 //
 // black-box testing
-
+// when we know what the code is supposed to do and we test for just that, we are not concerned with the inner workings of the code
 // Question 2.
 //
 // In the quiz.spec.js file, there is a test case with an
@@ -18,11 +19,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
