@@ -4,8 +4,10 @@
 // (Write them in comments so that the rest of the code will still run)
 //
 // assertion
+    // Assertion, or expectation, is when you are writing a test case and you say, or assert, what you expect to be true
 //
 // black-box testing
+    // We do not need to know what the actual code is, we just need to know if our testing input will produce the correct output.
 
 // Question 2.
 //
@@ -18,12 +20,14 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
-}
+
+    return count;
+};
 
 // Write two black-box tests for this code. (Remember, tests
 // go in the .spec.js file.)
