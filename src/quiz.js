@@ -3,9 +3,9 @@
 // Question 1.  In your own words, define the following:
 // (Write them in comments so that the rest of the code will still run)
 //
-// assertion
+// assertion - (n.) Test case that originates from an intended use (or edge case) of a function/script/program.
 //
-// black-box testing
+// black-box testing - (v.) Testing a program/script that you do not know the inner workings of, based on input and expected output.
 
 // Question 2.
 //
@@ -18,11 +18,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
