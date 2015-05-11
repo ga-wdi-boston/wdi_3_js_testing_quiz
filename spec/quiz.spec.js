@@ -11,3 +11,13 @@ describe('Question 2', function(){
   });
 
 });
+
+describe('countOdds', function(){
+  it ('should count the odds in numbers',{
+    function(){
+      var a = 3;
+      var getOdd = (a%2===0)
+      expect(3).toBe(getOdd)
+    }
+  });
+});
