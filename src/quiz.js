@@ -10,6 +10,8 @@
 
 // black-box testing
 
+//testing a function as if you cannot see inside of it.
+
 // Question 2.
 //
 // In the quiz.spec.js file, there is a test case with an
