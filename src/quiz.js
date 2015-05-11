@@ -3,7 +3,9 @@
 // Question 1.  In your own words, define the following:
 // (Write them in comments so that the rest of the code will still run)
 //
-// assertion
+// assertions
+   // 1. expect(numbers(3)).toBe(count++);
+ //
 //
 // black-box testing
 
@@ -18,11 +20,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+      return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
