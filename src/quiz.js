@@ -4,8 +4,11 @@
 // (Write them in comments so that the rest of the code will still run)
 //
 // assertion
+// An assertion is an expression which has inside some testable logic and checks if it validates to be true.
 //
 // black-box testing
+// Black box testing checks if the function works correctly without going inside of the actual code
+// (that is checking if all the internal decisions like "if"s etc are working properly)
 
 // Question 2.
 //
@@ -18,11 +21,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
@@ -33,3 +37,5 @@ function countOdds (numbers) {
 // answer to question 3, write a comment in the .spec.js
 // file indicating this. Otherwise, write a third test that
 // improves the code test coverage.
+// Edge case: writing a test for non-integer number and return it to false.
+// Write a test if what was enetered as numbers was NaN or string...
