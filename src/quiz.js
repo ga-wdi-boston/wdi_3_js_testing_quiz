@@ -3,9 +3,9 @@
 // Question 1.  In your own words, define the following:
 // (Write them in comments so that the rest of the code will still run)
 //
-// assertion
+// assertion - something we expect to be true at this point in out code
 //
-// black-box testing
+// black-box testing - test without looking inside of out function
 
 // Question 2.
 //
@@ -34,3 +34,5 @@ function countOdds (numbers) {
 // answer to question 3, write a comment in the .spec.js
 // file indicating this. Otherwise, write a third test that
 // improves the code test coverage.
+
+// empty array, no odd numbers, integers, negative, non numbers
