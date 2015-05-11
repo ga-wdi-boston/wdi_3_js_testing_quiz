@@ -4,8 +4,10 @@
 // (Write them in comments so that the rest of the code will still run)
 //
 // assertion
-//
+// Answer: Something that we expect to be true or correct
 // black-box testing
+// Answer: Testing a function at face-value for what it says it should do, without examining the actual funciton
+// too closely.
 
 // Question 2.
 //
@@ -18,11 +20,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
