@@ -4,8 +4,15 @@
 // (Write them in comments so that the rest of the code will still run)
 //
 // assertion
+
+// The assertion is the statement of what you expect to happen. It is sometimes also known as the expectation.
+// ex:
+// expect(2 + 2).toBe(4);
 //
 // black-box testing
+
+// Treating the code as if its inner workings are invisible to us, and only checking the expected output against a particular input.
+
 
 // Question 2.
 //
@@ -18,15 +25,18 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
+      console.log(count);
+      return count;
     }
 }
 
 // Write two black-box tests for this code. (Remember, tests
 // go in the .spec.js file.)
+
 
 // Question 4. Consider the decision points and code paths
 // in countOdds. If you have covered them all with your
