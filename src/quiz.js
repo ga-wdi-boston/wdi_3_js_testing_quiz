@@ -1,11 +1,12 @@
+
 // Quiz: Testing with Jasmine
 
 // Question 1.  In your own words, define the following:
 // (Write them in comments so that the rest of the code will still run)
 //
-// assertion
+// assertion- something that we believe to be true. It can also be called an expectation.
 //
-// black-box testing
+// black-box testing- When you are testing a piece of your code, you are only entering in a specific input and expecting a certain output. The entirety of the code that is being tested is not visible to you at that time.
 
 // Question 2.
 //
@@ -18,11 +19,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
+    for (i = 0; i < numbers.length; i++) {
         if (numbers[i] %2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
