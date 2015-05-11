@@ -1,13 +1,17 @@
-describe('Question 2', function(){
+describe('countOdd', function(){
 
-  it('should strip zeroes from arrays', function(){
+  it('should count the odd numbers in array', function(){
 
     var inputArray = [3, 2, 1, 4, 0];
-    var arrayWithoutZero = inputArray.filter(function(e){ return e !== 0; });
-
     // at this point the array should not have any element containing 0
-    expect().toEqual();
+    expect(countOdds(inputArray)).toEqual(2);
+  });
 
+  it('should count in empty array', function(){
+
+    var inputArray = [];
+    // at this point the array should not have any element containing 0
+    expect(countOdds(inputArray)).toEqual(0);
   });
 
 });

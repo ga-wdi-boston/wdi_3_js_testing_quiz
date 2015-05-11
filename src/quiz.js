@@ -18,11 +18,12 @@
 function countOdds (numbers) {
     var i;
     var count = 0;
-    for (i = 0; i < count.length; i++) {
-        if (numbers[i] %2 === 1) {
+    for (i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 1) {
             count++;
         }
     }
+    return count;
 }
 
 // Write two black-box tests for this code. (Remember, tests
